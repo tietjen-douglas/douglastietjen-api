@@ -29,7 +29,10 @@ A Django REST API backend for the portfolio website of Douglas Tietjen, showcasi
 9. Install the dependencies `[pip install -r requirements.txt]`
 
 ## Run the application
-
+Make sure you are connected to the server and have the environment activated and then do the following:
+1. `[python manage.py runserver 0.0.0.0:8000]`
+2. Open a browser to this URL: http://127.0.0.1:8000/
+The Vagrantfile script links the development server and localhost port 8000 together.
 
 ## See also React Front End Project
 
