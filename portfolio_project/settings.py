@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     # apps
-    'portfolio_api',
+    'profile_api',
 ]
 
 MIDDLEWARE = [
@@ -129,4 +129,4 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = 'portfolio_api.UserProfile'
+AUTH_USER_MODEL = 'profile_api.UserProfile'
